@@ -1,0 +1,223 @@
+{
+  "notes": "Commands assume the project root as cwd and the dpr-discovery conda env (matplotlib/seaborn). Re-run with --plot-serif for Palatino (serif) fonts.",
+  "figures": [
+    {
+      "id": "cost_scatter_hybridqa_raw",
+      "output": "figs/cost_scatter_hybridqa_raw.pdf",
+      "description": "Cost–quality scatter for main-table methods on HybridQA raw lake (USD/query vs report score).",
+      "results_map": "figs/results_maps/main_table_hybridqa_raw.json",
+      "command": [
+        "python scripts/get_results.py",
+        "--results_map", "figs/results_maps/main_table_hybridqa_raw.json",
+        "--lake", "raw",
+        "--root", ".",
+        "--no-strict",
+        "--plot-cost-scatter",
+        "--plot-cost-metric", "dollar-per-query",
+        "--plot-cost-level", "run",
+        "--plot-performance-metric", "report_score",
+        "--plot-omit-title",
+        "--plot-serif",
+        "--no-plot-show",
+        "--plot-width", "4.5",
+        "--plot-height", "2.6",
+        "--plot-cost-path", "figs/cost_scatter_hybridqa_raw.pdf",
+        "--format", "text",
+        "--sections", "research_quality"
+      ]
+    },
+    {
+      "id": "cost_scatter_tatqa_raw",
+      "output": "figs/cost_scatter_tatqa_raw.pdf",
+      "description": "Cost–quality scatter for main-table methods on TAT-QA raw lake (USD/query vs report score).",
+      "results_map": "figs/results_maps/main_table_tatqa_raw.json",
+      "command": [
+        "python scripts/get_results.py",
+        "--results_map", "figs/results_maps/main_table_tatqa_raw.json",
+        "--lake", "raw",
+        "--root", ".",
+        "--no-strict",
+        "--plot-cost-scatter",
+        "--plot-cost-metric", "dollar-per-query",
+        "--plot-cost-level", "run",
+        "--plot-performance-metric", "report_score",
+        "--plot-omit-title",
+        "--plot-serif",
+        "--no-plot-show",
+        "--plot-width", "4.5",
+        "--plot-height", "2.6",
+        "--plot-cost-path", "figs/cost_scatter_tatqa_raw.pdf",
+        "--format", "text",
+        "--sections", "research_quality"
+      ]
+    },
+    {
+      "id": "cost_scatter_hybridqa_tatqa_raw",
+      "output": "figs/cost_scatter_hybridqa_tatqa_raw.pdf",
+      "description": "Two-panel cost–quality scatter for main-table methods on HybridQA and TAT-QA, with a shared horizontal legend.",
+      "results_maps": [
+        "figs/results_maps/main_table_hybridqa_raw.json",
+        "figs/results_maps/main_table_tatqa_raw.json"
+      ],
+      "command": [
+        "python scripts/generate_combined_cost_scatter.py",
+        "--hybridqa-map", "figs/results_maps/main_table_hybridqa_raw.json",
+        "--tatqa-map", "figs/results_maps/main_table_tatqa_raw.json",
+        "--root", ".",
+        "--output", "figs/cost_scatter_hybridqa_tatqa_raw.pdf",
+        "--width", "7.5",
+        "--height", "3.5"
+      ]
+    },
+    {
+      "id": "cost_scatter_hybridqa_tatqa_raw_queries",
+      "output": "figs/cost_scatter_hybridqa_tatqa_raw_queries.pdf",
+      "description": "Two-panel cost–quality scatter with transparent query-level points beneath the method-level averages.",
+      "results_maps": [
+        "figs/results_maps/main_table_hybridqa_raw.json",
+        "figs/results_maps/main_table_tatqa_raw.json"
+      ],
+      "command": [
+        "python scripts/generate_combined_cost_scatter.py",
+        "--hybridqa-map", "figs/results_maps/main_table_hybridqa_raw.json",
+        "--tatqa-map", "figs/results_maps/main_table_tatqa_raw.json",
+        "--root", ".",
+        "--output", "figs/cost_scatter_hybridqa_tatqa_raw_queries.pdf",
+        "--width", "7.5",
+        "--height", "3.5",
+        "--query-overlay"
+      ]
+    },
+    {
+      "id": "trajectory_hybridqa_tatqa_raw",
+      "output": "figs/trajectory_hybridqa_tatqa_raw.pdf",
+      "description": "Two-panel cumulative finding-score trajectories for the main-table methods on HybridQA and TAT-QA.",
+      "results_maps": [
+        "figs/results_maps/main_table_hybridqa_raw.json",
+        "figs/results_maps/main_table_tatqa_raw.json"
+      ],
+      "command": [
+        "python scripts/generate_combined_trajectory.py",
+        "--hybridqa-map", "figs/results_maps/main_table_hybridqa_raw.json",
+        "--tatqa-map", "figs/results_maps/main_table_tatqa_raw.json",
+        "--root", ".",
+        "--output", "figs/trajectory_hybridqa_tatqa_raw.pdf",
+        "--width", "7.5",
+        "--height", "3.5"
+      ]
+    },
+    {
+      "id": "trajectory_cost_hybridqa_tatqa_raw",
+      "output": "figs/trajectory_cost_hybridqa_tatqa_raw.pdf",
+      "description": "Merged 2x2 figure: cumulative finding-score trajectories (top) over the cost-quality scatter (bottom), for HybridQA and TAT-QA, with one shared legend.",
+      "results_maps": [
+        "figs/results_maps/main_table_hybridqa_raw.json",
+        "figs/results_maps/main_table_tatqa_raw.json"
+      ],
+      "command": [
+        "conda", "run", "-n", "dpr-discovery",
+        "python", "scripts/generate_combined_trajectory_cost.py",
+        "--hybridqa-map", "figs/results_maps/main_table_hybridqa_raw.json",
+        "--tatqa-map", "figs/results_maps/main_table_tatqa_raw.json",
+        "--root", ".",
+        "--output", "figs/trajectory_cost_hybridqa_tatqa_raw.pdf",
+        "--width", "7.5",
+        "--height", "3.75",
+        "--query-overlay"
+      ]
+    },
+    {
+      "id": "trajectory_budget_200_hybridqa_raw",
+      "output": "figs/trajectory_budget_200_hybridqa_raw.pdf",
+      "delta_output": "figs/trajectory_budget_200_hybridqa_raw_delta.pdf",
+      "description": "Cumulative finding-score trajectories for Random and Bayes-UCB through a budget of 200 on three HybridQA queries.",
+      "results_map": "figs/results_maps/budget_trajectory_hybridqa_raw.json",
+      "query_ids": ["5", "49", "79"],
+      "command": [
+        "conda", "run", "-n", "dpr-discovery",
+        "python", "scripts/generate_budget_trajectory.py",
+        "--results-map", "figs/results_maps/budget_trajectory_hybridqa_raw.json",
+        "--root", ".",
+        "--output", "figs/trajectory_budget_200_hybridqa_raw.pdf",
+        "--delta-output", "figs/trajectory_budget_200_hybridqa_raw_delta.pdf",
+        "--width", "4.5",
+        "--height", "2.8"
+      ]
+    },
+    {
+      "id": "cost_scatter_model_scale_hybridqa_raw",
+      "output": "figs/cost_scatter_model_scale_hybridqa_raw.pdf",
+      "description": "Cost–quality scatter comparing GPT-5 Nano, Mini, and GPT-5 on the same three HybridQA queries.",
+      "results_map": "figs/results_maps/model_scale_hybridqa_raw.json",
+      "query_ids": ["5", "19", "49"],
+      "command": [
+        "python scripts/get_results.py",
+        "--results_map", "figs/results_maps/model_scale_hybridqa_raw.json",
+        "--lake", "raw",
+        "--root", ".",
+        "--plot-cost-scatter",
+        "--plot-cost-metric", "dollar-per-query",
+        "--plot-cost-level", "run",
+        "--plot-performance-metric", "report_score",
+        "--plot-query-ids", "5", "19", "49",
+        "--plot-connect-points",
+        "--plot-omit-title",
+        "--plot-serif",
+        "--no-plot-show",
+        "--plot-width", "4.5",
+        "--plot-height", "2.6",
+        "--plot-cost-path", "figs/cost_scatter_model_scale_hybridqa_raw.pdf",
+        "--format", "text",
+        "--sections", "research_quality"
+      ]
+    },
+    {
+      "id": "cost_scatter_model_scale_hybridqa_raw_open_weight",
+      "output": "figs/cost_scatter_model_scale_hybridqa_raw_open_weight.pdf",
+      "description": "Model-scale HybridQA cost scatter with open-weight Qwen report-score reference lines (no cost).",
+      "results_map": "figs/results_maps/model_scale_hybridqa_raw.json",
+      "query_ids": ["5", "19", "49"],
+      "command": [
+        "python scripts/get_results.py",
+        "--results_map", "figs/results_maps/model_scale_hybridqa_raw.json",
+        "--lake", "raw",
+        "--root", ".",
+        "--plot-cost-scatter",
+        "--plot-cost-metric", "dollar-per-query",
+        "--plot-cost-level", "run",
+        "--plot-performance-metric", "report_score",
+        "--plot-query-ids", "5", "19", "49",
+        "--plot-connect-points",
+        "--plot-reference-score", "Qwen3-Coder-30B-A3B-Instruct=0.1747",
+        "--plot-reference-score", "Qwen3-Next-80B-A3B-Instruct=0.14",
+        "--plot-reference-score", "Qwen3-235B-A22B-Instruct=0.3787",
+        "--plot-omit-title",
+        "--plot-serif",
+        "--no-plot-show",
+        "--plot-width", "5.8",
+        "--plot-height", "2.6",
+        "--plot-cost-path", "figs/cost_scatter_model_scale_hybridqa_raw_open_weight.pdf",
+        "--format", "text",
+        "--sections", "research_quality"
+      ]
+    },
+    {
+      "id": "prior_distribution_hybridqa_tatqa",
+      "output": "figs/prior_distribution_hybridqa_tatqa.pdf",
+      "description": "Initial LLM cluster-prior means and elicited belief-label distributions for the Bayes-UCB runs.",
+      "runs": [
+        "results_verda/20260616-175658",
+        "results_unity/20260706-154815"
+      ],
+      "command": [
+        "conda", "run", "-n", "dpr-discovery",
+        "python", "scripts/generate_prior_distribution.py",
+        "--hybridqa-run", "results_verda/20260616-175658",
+        "--tatqa-run", "results_unity/20260706-154815",
+        "--output", "figs/prior_distribution_hybridqa_tatqa.pdf",
+        "--width", "7.5",
+        "--height", "2.55"
+      ]
+    }
+  ]
+}

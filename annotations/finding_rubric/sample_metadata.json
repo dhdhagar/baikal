@@ -1,0 +1,63 @@
+{
+  "n_findings": 80,
+  "seed": 42,
+  "runs": [
+    {
+      "dataset": "HybridQA",
+      "method": "Baikal-Bayes-UCB",
+      "run_dir": "results_verda/20260616-175658",
+      "lake_dir": "data/hybridqa/lake",
+      "passage_descriptions_path": "data/hybridqa/passage_descriptions_raw.json"
+    },
+    {
+      "dataset": "HybridQA",
+      "method": "OpenCode-base",
+      "run_dir": "results_verda/20260617-135019",
+      "lake_dir": "data/hybridqa/lake",
+      "passage_descriptions_path": "data/hybridqa/passage_descriptions_raw.json"
+    },
+    {
+      "dataset": "HybridQA",
+      "method": "DeepSearcher",
+      "run_dir": "results_rishitha/20260702-055601",
+      "lake_dir": "data/hybridqa/lake",
+      "passage_descriptions_path": "data/hybridqa/passage_descriptions_raw.json"
+    },
+    {
+      "dataset": "TAT-QA",
+      "method": "Baikal-Bayes-UCB",
+      "run_dir": "results_unity/20260706-154815",
+      "lake_dir": "data/tatqa/lake",
+      "passage_descriptions_path": "data/tatqa/passage_descriptions_raw.json"
+    },
+    {
+      "dataset": "TAT-QA",
+      "method": "OpenCode-base",
+      "run_dir": "results_unity/20260706-090141",
+      "lake_dir": "data/tatqa/lake",
+      "passage_descriptions_path": "data/tatqa/passage_descriptions_raw.json"
+    },
+    {
+      "dataset": "TAT-QA",
+      "method": "DeepSearcher",
+      "run_dir": "results_rishitha/20260707-134911",
+      "lake_dir": "data/tatqa/lake",
+      "passage_descriptions_path": "data/tatqa/passage_descriptions_raw.json"
+    }
+  ],
+  "stratification": "Balanced across dataset and method, then sampled evenly across within-group automated-score rank quartiles; at most two findings per query within each dataset-method group.",
+  "annotation_files": {
+    "items_blinded": "Contains no method labels or automated scores.",
+    "items_blinded_js": "Browser-ready copy for opening the annotation interface without a server.",
+    "answer_key": "Keep hidden from annotators until ratings are finalized.",
+    "ratings_template": "One row per finding; duplicate it for the second annotator."
+  },
+  "counts_by_dataset_method": {
+    "HybridQA / Baikal-Bayes-UCB": 14,
+    "HybridQA / DeepSearcher": 14,
+    "HybridQA / OpenCode-base": 13,
+    "TAT-QA / Baikal-Bayes-UCB": 13,
+    "TAT-QA / DeepSearcher": 13,
+    "TAT-QA / OpenCode-base": 13
+  }
+}

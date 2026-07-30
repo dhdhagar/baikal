@@ -1,0 +1,8 @@
+{
+  "T1": {
+    "domain": "test",
+    "title": "Stadiums",
+    "columns": ["name", "capacity"],
+    "description": "Stadium capacity data"
+  }
+}

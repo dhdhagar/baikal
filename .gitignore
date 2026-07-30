@@ -1,0 +1,41 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Large data files
+*.npy
+*.zip
+
+# Downloaded data lakes (see README setup)
+data/
+
+# Run outputs
+runs/
+debug/
+reports/
+results/
+results_*/
+
+# Generated figures
+figs/*.pdf
+figs/*.png
+
+# Rubric-validation outputs (see README)
+annotations/llm_ratings.csv
+annotations/ratings_annotator_*.csv
+annotations/finding_rubric_analysis/
+
+# Logs
+*.log

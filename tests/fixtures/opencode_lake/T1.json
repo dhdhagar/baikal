@@ -1,0 +1,8 @@
+{
+  "table_id": "T1",
+  "columns": ["name", "capacity"],
+  "rows": [
+    [["Alpha Stadium", []], ["50000", []]],
+    [["Beta Arena", []], ["30000", []]]
+  ]
+}

@@ -1,0 +1,1522 @@
+{
+  "F001": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "13",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_rishitha/20260707-134911/13/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 0.0,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F002": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "14",
+    "finding_idx": 8,
+    "step": 8,
+    "result_path": "results_unity/20260706-090141/14/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F003": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "3",
+    "finding_idx": 8,
+    "step": 8,
+    "result_path": "results_rishitha/20260707-134911/3/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F004": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "5",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_verda/20260617-135019/5/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F005": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "5",
+    "finding_idx": 9,
+    "step": 9,
+    "result_path": "results_unity/20260706-090141/5/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F006": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "10",
+    "finding_idx": 5,
+    "step": 5,
+    "result_path": "results_unity/20260706-154815/10/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F007": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "20",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_verda/20260617-135019/20/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F008": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "19",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_verda/20260617-135019/19/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F009": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "1",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_unity/20260706-090141/1/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 0.75,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F010": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "4",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_unity/20260706-154815/4/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F011": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "12",
+    "finding_idx": 8,
+    "step": 8,
+    "result_path": "results_unity/20260706-090141/12/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F012": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "5",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_rishitha/20260707-134911/5/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F013": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "13",
+    "finding_idx": 9,
+    "step": 9,
+    "result_path": "results_unity/20260706-154815/13/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F014": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "76",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_rishitha/20260702-055601/76/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F015": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "79",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_verda/20260616-175658/79/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F016": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "9",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_rishitha/20260707-134911/9/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F017": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "47",
+    "finding_idx": 9,
+    "step": 9,
+    "result_path": "results_verda/20260617-135019/47/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F018": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "14",
+    "finding_idx": 1,
+    "step": 1,
+    "result_path": "results_unity/20260706-154815/14/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F019": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "6",
+    "finding_idx": 4,
+    "step": 4,
+    "result_path": "results_unity/20260706-090141/6/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F020": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "12",
+    "finding_idx": 9,
+    "step": 9,
+    "result_path": "results_rishitha/20260702-055601/12/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F021": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "4",
+    "finding_idx": 9,
+    "step": 9,
+    "result_path": "results_unity/20260706-154815/4/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 0.75,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F022": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "47",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_rishitha/20260702-055601/47/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F023": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "49",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_rishitha/20260702-055601/49/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F024": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "2",
+    "finding_idx": 1,
+    "step": 1,
+    "result_path": "results_unity/20260706-090141/2/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 0.5,
+        "distinctness": 0.5,
+        "report_usefulness": 0.25
+      }
+    }
+  },
+  "F025": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "49",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_verda/20260616-175658/49/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F026": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "63",
+    "finding_idx": 5,
+    "step": 5,
+    "result_path": "results_rishitha/20260702-055601/63/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F027": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "1",
+    "finding_idx": 1,
+    "step": 1,
+    "result_path": "results_rishitha/20260707-134911/1/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 0.5,
+        "distinctness": 1.0,
+        "report_usefulness": 0.25
+      }
+    }
+  },
+  "F028": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "1",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_unity/20260706-154815/1/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F029": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "3",
+    "finding_idx": 5,
+    "step": 5,
+    "result_path": "results_rishitha/20260707-134911/3/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F030": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "90",
+    "finding_idx": 4,
+    "step": 4,
+    "result_path": "results_rishitha/20260702-055601/90/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F031": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "20",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_rishitha/20260702-055601/20/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F032": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "90",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_verda/20260617-135019/90/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F033": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "8",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_unity/20260706-090141/8/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F034": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "12",
+    "finding_idx": 4,
+    "step": 4,
+    "result_path": "results_unity/20260706-090141/12/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 0.75,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F035": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "12",
+    "finding_idx": 1,
+    "step": 1,
+    "result_path": "results_rishitha/20260702-055601/12/result.json",
+    "automated_finding_score": 0.5,
+    "automated_rubric": {
+      "finding_score": 0.5,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F036": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "19",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_verda/20260617-135019/19/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.5,
+        "distinctness": 0.0,
+        "report_usefulness": 0.25
+      }
+    }
+  },
+  "F037": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "76",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_verda/20260616-175658/76/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F038": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "90",
+    "finding_idx": 4,
+    "step": 4,
+    "result_path": "results_verda/20260617-135019/90/result.json",
+    "automated_finding_score": 0.4219,
+    "automated_rubric": {
+      "finding_score": 0.4219,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 0.75,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F039": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "20",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_verda/20260616-175658/20/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F040": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "2",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_rishitha/20260707-134911/2/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F041": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "86",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_verda/20260616-175658/86/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F042": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "8",
+    "finding_idx": 4,
+    "step": 4,
+    "result_path": "results_unity/20260706-154815/8/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F043": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "76",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_verda/20260616-175658/76/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F044": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "12",
+    "finding_idx": 5,
+    "step": 5,
+    "result_path": "results_verda/20260617-135019/12/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F045": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "3",
+    "finding_idx": 3,
+    "step": 3,
+    "result_path": "results_unity/20260706-090141/3/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 0.5,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F046": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "47",
+    "finding_idx": 1,
+    "step": 1,
+    "result_path": "results_verda/20260616-175658/47/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F047": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "79",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_rishitha/20260702-055601/79/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.25
+      }
+    }
+  },
+  "F048": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "10",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_unity/20260706-090141/10/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F049": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "7",
+    "finding_idx": 1,
+    "step": 1,
+    "result_path": "results_rishitha/20260707-134911/7/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F050": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "79",
+    "finding_idx": 4,
+    "step": 4,
+    "result_path": "results_verda/20260616-175658/79/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F051": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "2",
+    "finding_idx": 8,
+    "step": 8,
+    "result_path": "results_rishitha/20260707-134911/2/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F052": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "9",
+    "finding_idx": 4,
+    "step": 4,
+    "result_path": "results_unity/20260706-154815/9/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 0.75,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F053": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "41",
+    "finding_idx": 5,
+    "step": 5,
+    "result_path": "results_verda/20260616-175658/41/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F054": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "9",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_unity/20260706-090141/9/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 0.25,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F055": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "80",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_rishitha/20260702-055601/80/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F056": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "41",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_rishitha/20260702-055601/41/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F057": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "63",
+    "finding_idx": 1,
+    "step": 1,
+    "result_path": "results_verda/20260616-175658/63/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F058": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "20",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_verda/20260617-135019/20/result.json",
+    "automated_finding_score": 0.375,
+    "automated_rubric": {
+      "finding_score": 0.375,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 0.5,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F059": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "13",
+    "finding_idx": 5,
+    "step": 5,
+    "result_path": "results_unity/20260706-154815/13/result.json",
+    "automated_finding_score": 0.375,
+    "automated_rubric": {
+      "finding_score": 0.375,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 0.5,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F060": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "41",
+    "finding_idx": 9,
+    "step": 9,
+    "result_path": "results_verda/20260616-175658/41/result.json",
+    "automated_finding_score": 0.125,
+    "automated_rubric": {
+      "finding_score": 0.125,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.5,
+        "distinctness": 0.5,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F061": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "47",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_verda/20260617-135019/47/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F062": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "19",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_verda/20260616-175658/19/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F063": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "5",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_rishitha/20260707-134911/5/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F064": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "80",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_verda/20260617-135019/80/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 0.75,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F065": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "7",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_unity/20260706-154815/7/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F066": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "63",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_verda/20260617-135019/63/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F067": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "1",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_unity/20260706-090141/1/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 0.75,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F068": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "3",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_unity/20260706-154815/3/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 0.5,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F069": {
+    "dataset": "TAT-QA",
+    "method": "OpenCode-base",
+    "run_dir": "results_unity/20260706-090141",
+    "query_id": "11",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_unity/20260706-090141/11/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F070": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "0",
+    "finding_idx": 9,
+    "step": 9,
+    "result_path": "results_rishitha/20260707-134911/0/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F071": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "5",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_rishitha/20260702-055601/5/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F072": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "2",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_unity/20260706-154815/2/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 0.5,
+        "distinctness": 0.25,
+        "report_usefulness": 0.0
+      }
+    }
+  },
+  "F073": {
+    "dataset": "TAT-QA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_unity/20260706-154815",
+    "query_id": "9",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_unity/20260706-154815/9/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 0.75,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F074": {
+    "dataset": "HybridQA",
+    "method": "OpenCode-base",
+    "run_dir": "results_verda/20260617-135019",
+    "query_id": "80",
+    "finding_idx": 2,
+    "step": 2,
+    "result_path": "results_verda/20260617-135019/80/result.json",
+    "automated_finding_score": 0.0,
+    "automated_rubric": {
+      "finding_score": 0.0,
+      "scores": {
+        "grounded": 0.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F075": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "5",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_verda/20260616-175658/5/result.json",
+    "automated_finding_score": 0.5625,
+    "automated_rubric": {
+      "finding_score": 0.5625,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 0.75,
+        "distinctness": 0.75,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F076": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "49",
+    "finding_idx": 7,
+    "step": 7,
+    "result_path": "results_rishitha/20260702-055601/49/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F077": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "13",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_rishitha/20260707-134911/13/result.json",
+    "automated_finding_score": 1.0,
+    "automated_rubric": {
+      "finding_score": 1.0,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 1.0
+      }
+    }
+  },
+  "F078": {
+    "dataset": "HybridQA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260702-055601",
+    "query_id": "76",
+    "finding_idx": 5,
+    "step": 5,
+    "result_path": "results_rishitha/20260702-055601/76/result.json",
+    "automated_finding_score": 0.5,
+    "automated_rubric": {
+      "finding_score": 0.5,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.5
+      }
+    }
+  },
+  "F079": {
+    "dataset": "TAT-QA",
+    "method": "DeepSearcher",
+    "run_dir": "results_rishitha/20260707-134911",
+    "query_id": "1",
+    "finding_idx": 10,
+    "step": 10,
+    "result_path": "results_rishitha/20260707-134911/1/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  },
+  "F080": {
+    "dataset": "HybridQA",
+    "method": "Baikal-Bayes-UCB",
+    "run_dir": "results_verda/20260616-175658",
+    "query_id": "24",
+    "finding_idx": 6,
+    "step": 6,
+    "result_path": "results_verda/20260616-175658/24/result.json",
+    "automated_finding_score": 0.75,
+    "automated_rubric": {
+      "finding_score": 0.75,
+      "scores": {
+        "grounded": 1.0,
+        "relevance": 1.0,
+        "distinctness": 1.0,
+        "report_usefulness": 0.75
+      }
+    }
+  }
+}

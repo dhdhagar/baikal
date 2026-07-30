@@ -1,0 +1,267 @@
+{
+  "synth": {
+    "baikal-synth-passages": {
+      "pretty_title": "Baikal",
+      "results_dir": "results_unity/20260705-194704",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 4
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 4"
+    }
+  },
+  "raw": {
+    "baikal-raw-passages": {
+      "pretty_title": "Baikal",
+      "results_dir": "results_unity/20260706-045314",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw"
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\""
+    },
+    "baikal-raw-passages-cluster-expansion": {
+      "pretty_title": "Baikal (+ expansion)",
+      "results_dir": "results_unity/20260706-184410",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "expand_cluster": true
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --expand_cluster"
+    },
+    "baikal-raw-llm-subq-selection": {
+      "pretty_title": "Baikal (LLM q-sel)",
+      "results_dir": "results_unity/20260706-222927",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "subquestion_selection_method": "llm"
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --subquestion_selection_method \"llm\""
+    },
+    "baikal-raw-llm-subq-selection-cluster-expansion": {
+      "pretty_title": "Baikal (LLM q-sel + expansion)",
+      "results_dir": "results_unity/20260707-064836",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "subquestion_selection_method": "llm",
+        "expand_cluster": true
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --subquestion_selection_method \"llm\" \\\n --expand_cluster"
+    },
+    "baikal+opencode-raw-llm-subq-selection-cluster-expansion": {
+      "pretty_title": "Baikal (LLM q-sel + expansion + RA)",
+      "results_dir": "results_unity/20260710-161945",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "subquestion_selection_method": "llm",
+        "expand_cluster": true,
+        "opencode_exec": true
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --subquestion_selection_method \"llm\" \\\n --expand_cluster \\\n --opencode_exec"
+    },
+    "baikal+opencode-raw-llm-subq-selection-cluster-expansion-epsilon": {
+      "pretty_title": "Baikal (LLM q-sel + expansion + RA, ε-greedy)",
+      "results_dir": "results_unity/20260710-162053",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "subquestion_selection_method": "llm",
+        "expand_cluster": true,
+        "opencode_exec": true,
+        "cluster_selection_method": "epsilon-greedy"
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --subquestion_selection_method \"llm\" \\\n --expand_cluster \\\n --opencode_exec \\\n --cluster_selection_method \"epsilon-greedy\""
+    },
+    "baikal+opencode-raw-llm-subq-selection-cluster-expansion-bayes-epsilon": {
+      "pretty_title": "Baikal (LLM q-sel + expansion + RA, Bayes-ε-greedy)",
+      "results_dir": "results_unity/20260711-000457",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "subquestion_selection_method": "llm",
+        "expand_cluster": true,
+        "opencode_exec": true,
+        "cluster_selection_method": "epsilon-greedy",
+        "use_llm_priors": true
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --subquestion_selection_method \"llm\" \\\n --expand_cluster \\\n --opencode_exec \\\n --cluster_selection_method \"epsilon-greedy\" \\\n --use_llm_priors"
+    },
+    "baikal+opencode-raw-llm-subq-selection-cluster-expansion-llm-policy": {
+      "pretty_title": "Baikal (LLM q-sel + expansion + RA, LLM policy)",
+      "results_dir": "results_unity/20260711-000434",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "subquestion_selection_method": "llm",
+        "expand_cluster": true,
+        "opencode_exec": true,
+        "cluster_selection_method": "llm"
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --subquestion_selection_method \"llm\" \\\n --expand_cluster \\\n --opencode_exec \\\n --cluster_selection_method \"llm\""
+    },
+    "baikal+opencode-raw-llm-subq-selection-cluster-expansion-bayes-ucb": {
+      "pretty_title": "Baikal (LLM q-sel + expansion + RA, Bayes-UCB)",
+      "results_dir": "results_unity/20260706-154815",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 8,
+        "mem_gb": 32,
+        "passage_type": "raw",
+        "subquestion_selection_method": "llm",
+        "expand_cluster": true,
+        "opencode_exec": true,
+        "cluster_selection_method": "ucb",
+        "use_llm_priors": true
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 8 \\\n --mem_gb 32 \\\n --passage_type \"raw\" \\\n --subquestion_selection_method \"llm\" \\\n --expand_cluster \\\n --opencode_exec \\\n --cluster_selection_method \"ucb\" \\\n --use_llm_priors"
+    },
+    "research-agent-raw": {
+      "pretty_title": "Research-Agent",
+      "results_dir": "results_unity/20260706-090141",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 4,
+        "method": "opencode",
+        "passage_type": "raw"
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 4 \\\n --method opencode \\\n --passage_type \"raw\""
+    },
+    "research-agent-raw-topk-retrievals": {
+      "pretty_title": "Research-Agent (+ retrieval)",
+      "results_dir": "results_unity/20260706-090250",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 4,
+        "method": "opencode",
+        "passage_type": "raw",
+        "opencode_skip_retrieval": false
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 4 \\\n --method opencode \\\n --passage_type \"raw\" \\\n --no-opencode_skip_retrieval"
+    },
+    "research-agent-raw-topk-retrievals-and-clusters": {
+      "pretty_title": "Research-Agent (+ retrieval + clustering)",
+      "results_dir": "results_unity/20260710-004648",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "submitit": true,
+        "slurm_partition": "cpu-preempt",
+        "timeout_min": 240,
+        "cpus_per_task": 4,
+        "method": "opencode",
+        "passage_type": "raw",
+        "opencode_skip_retrieval": false,
+        "opencode_skip_clustering": false
+      },
+      "raw_command": "python -m src.run \\\n --data_dir data/tatqa \\\n --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n --n_queries 15 \\\n --compute_metrics \\\n --submitit \\\n --slurm_partition cpu-preempt \\\n --timeout_min 240 \\\n --cpus_per_task 4 \\\n --method opencode \\\n --passage_type \"raw\" \\\n --no-opencode_skip_retrieval \\\n --no-opencode_skip_clustering"
+    },
+    "deepsearcher-raw": {
+      "pretty_title": "DeepSearcher",
+      "results_dir": "results_rishitha/20260707-134911",
+      "config": {
+        "data_dir": "data/tatqa",
+        "query_file": "data/tatqa/dpdisc_dr_queries_15.json",
+        "n_queries": 15,
+        "compute_metrics": true,
+        "method": "deepsearcher",
+        "passage_type": "raw",
+        "inter_query_sleep_sec": 120
+      },
+      "raw_command": "python -m src.run \\\n  --data_dir data/tatqa \\\n  --query_file data/tatqa/dpdisc_dr_queries_15.json \\\n  --n_queries 15 \\\n  --compute_metrics \\\n  --method deepsearcher \\\n  --passage_type raw \\\n  --inter_query_sleep_sec 120"
+    }
+  }
+}
