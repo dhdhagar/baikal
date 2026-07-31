@@ -1,7 +1,9 @@
 <h1 style="border-bottom: none; padding-bottom: 0; margin: 0;">
   <img src="assets/baikal.png" alt="Baikal logo" width="120" valign="middle"/>
-  Baikal: Deep Research on Data Lakes
+  Baikal: Deep Research on Data Lakes<br>
 </h1>
+
+> **Paper:** Baikal: Structured Search for Deep Research over Data Lakes (https://arxiv.org/abs/2607.27726)
 
 ### Setup
 1. Clone the repository
@@ -420,3 +422,21 @@ python scripts/analyze_llm_finding_annotations.py
 ```
 
 **Retrieval analyses.** See `scripts/RETRIEVAL_ANALYSIS.md` for the embedding-model and top-*k* sweeps (`scripts/analyze_retrieval_embedding_models.py`, `scripts/analyze_retrieval_k_sweep.py`).
+
+---
+
+## ✍️ Get in touch!
+
+Please reach out to us on email or open a GitHub issue in case of any issues running the code: dagarwal@cs.umass.edu **(Dhruv Agarwal)**.
+
+## 📄 Citation
+If you find our work useful, please cite our paper:
+```
+@article{agarwal2026baikal,
+  title={Baikal: Structured Search for Deep Research over Data Lakes},
+  author={Agarwal, Dhruv and Mohan, Rishitha Guttapalle and Kumari, Aarti and Sinha, Ashi and Anil, Athulya and Srinivas, Kavitha and Samulowitz, Horst and McCallum, Andrew},
+  journal={arXiv preprint arXiv:2607.27726},
+  year={2026},
+  url={https://arxiv.org/abs/2607.27726}
+}
+```
